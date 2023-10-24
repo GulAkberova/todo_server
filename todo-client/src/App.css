@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+
+}
+.todo_bigdiv{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(5, 34, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.todo_minidiv{
+  width: 400px;
+  max-width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.205);
+  background-color: rgb(2, 40, 2);
+  border-radius: 10px;
+padding: 20px 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.todo_add_div{
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  background-color: white;
+
+}
+.todo_add_div input{
+ border: none;
+ outline: none;
+  padding: 8px 4px;
+  color: rgb(5, 34, 1);
+}
+.todo_add_div button{
+  padding: 0px 20px;
+  border: none;
+  background-color: rgb(5, 34, 1);
+  cursor: pointer;
+  transition: 0.5s;
+  color: white;
+}
+.todo_add_div button:hover{
+  background-color: white;
+  color:  rgb(5, 34, 1);
+}
+.todo_get_div{
+  width: 100%;
+}
+.todo_div{
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.179);
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.todo_div_btns button{
+  color: rgb(5, 34, 1);
+  margin: 0px 5px;
+  padding: 3px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.todo_div_btns button:hover{
+  background-color: rgb(5, 34, 1);
+  color: white;
+  border: 1px solid white;
+}
